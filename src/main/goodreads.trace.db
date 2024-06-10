@@ -1,0 +1,6 @@
+2024-06-09 06:34:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" already exists; SQL statement:
+create table book ( id INT PRIMARY KEY AUTO_INCREMENT, name varchar(255), imageUrl varchar(255), publisherId INT, FOREIGN KEY (publisherId) REFERENCES publisher(publisherId) ) [42101-214]
+2024-06-09 06:37:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" already exists; SQL statement:
+create table book ( id INT PRIMARY KEY AUTO_INCREMENT, name varchar(255), imageUrl varchar(255), publisherId INT, FOREIGN KEY (publisherId) REFERENCES publisher(publisherId) ) [42101-214]
